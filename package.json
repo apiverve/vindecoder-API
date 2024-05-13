@@ -1,0 +1,32 @@
+{
+  "name": "@apiverve/vindecoder",
+  "version": "1.0.0",
+  "description": "VIN Decoder is a simple tool for decoding vehicle identification numbers. It returns the make, model, and more of the vehicle.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apiverve/vindecoder-API.git"
+  },
+  "keywords": [
+    "vin decoder"," vin decoder api"," vin decoder tool"," vin decoder software"," vin decoder service"," vin decoder library"," vin decoder sdk"," vin decoder code"," vin decoder script"," vin decoder program"," vin decoder application"," vin decoder app"," vin decoder utility"," vin decoder helper"," vin decoder helper tool"," vin decoder helper software"," vin decoder helper service"," vin decoder helper library"," vin decoder helper sdk"," vin decoder helper code"," vin decoder helper script"," vin decoder helper program"," vin decoder helper application"," vin decoder helper app"," vin decoder helper tool"," vin decoder helper utility"," vin decoder helper"
+  ],
+  "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apiverve/vindecoder-API/issues"
+  },
+  "homepage": "https://github.com/apiverve/vindecoder-API",
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "chai": "^3.4.1",
+    "dotenv": "^2.0.0"
+  },
+  "dependencies": {
+    "node-fetch": "3.3.2",
+    "promise": "^7.1.1",
+    "request": "^2.69.0"
+  }
+}
