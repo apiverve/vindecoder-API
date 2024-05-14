@@ -11,7 +11,7 @@
     "url": "git+https://github.com/apiverve/vindecoder-API.git"
   },
   "keywords": [
-    "vin decoder"," vin decoder api"," vin decoder tool"," vin decoder software"," vin decoder service"," vin decoder library"," vin decoder sdk"," vin decoder code"," vin decoder script"," vin decoder program"," vin decoder application"," vin decoder app"," vin decoder utility"," vin decoder helper"," vin decoder helper tool"," vin decoder helper software"," vin decoder helper service"," vin decoder helper library"," vin decoder helper sdk"," vin decoder helper code"," vin decoder helper script"," vin decoder helper program"," vin decoder helper application"," vin decoder helper app"," vin decoder helper tool"," vin decoder helper utility"," vin decoder helper"
+    "vin decoder","vin decoder api","vin decoder tool","vin decoder software","vin decoder service"
   ],
   "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
   "license": "MIT",
@@ -27,6 +27,6 @@
   "dependencies": {
     "node-fetch": "3.3.2",
     "promise": "^7.1.1",
-    "request": "^2.69.0"
+    "axios": "^0.15.3"
   }
 }
