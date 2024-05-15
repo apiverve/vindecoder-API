@@ -24,8 +24,13 @@ class vindecoderWrapper {
     }
 
     async execute(query, callback) {
-        if (!query || typeof query !== 'object') {
-            throw new Error('Query parameters must be provided as an object.');
+        if(arguments.length > 1) {
+            if (!query || typeof query !== 'object') {
+                throw new Error('Query parameters must be provided as an object.');
+            }
+        } else {
+            callback = query;
+            query = {};
         }
 
         var requiredParams = ["vin"];
@@ -68,11 +73,15 @@ class vindecoderWrapper {
 
     constructURL(query) {
         let url = this.baseURL;
-        if (Object.keys(query).length > 0) {
-            const queryString = Object.keys(query)
-                .map(key => `${encodeURIComponent(key)}=${encodeURIComponent(query[key])}`)
-                .join('&');
-            url += `?${queryString}`;
+
+        if(query && typeof query === 'object') 
+        {
+            if (Object.keys(query).length > 0) {
+                const queryString = Object.keys(query)
+                    .map(key => `${encodeURIComponent(key)}=${encodeURIComponent(query[key])}`)
+                    .join('&');
+                url += `?${queryString}`;
+            }
         }
         return url;
     }
