@@ -1,6 +1,6 @@
 {
   "name": "@apiverve/vindecoder",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "VIN Decoder is a simple tool for decoding vehicle identification numbers. It returns the make, model, and more of the vehicle.",
   "main": "index.js",
   "scripts": {
