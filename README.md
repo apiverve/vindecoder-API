@@ -224,7 +224,8 @@ api.execute(query, function (error, data) {
     "trim": "EX-V6",
     "vin": "1HGCM82633A004352",
     "year": "2003"
-  }
+  },
+  "code": 200
 }
 ```
 
